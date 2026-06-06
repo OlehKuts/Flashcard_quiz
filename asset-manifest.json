@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/repo_name/static/css/main.2ecc6eca.css",
-    "main.js": "/repo_name/static/js/main.a33ea2b7.js",
-    "index.html": "/repo_name/index.html",
-    "main.2ecc6eca.css.map": "/repo_name/static/css/main.2ecc6eca.css.map",
-    "main.a33ea2b7.js.map": "/repo_name/static/js/main.a33ea2b7.js.map"
+    "main.css": "/Flashcard_quiz/static/css/main.2ecc6eca.css",
+    "main.js": "/Flashcard_quiz/static/js/main.a33ea2b7.js",
+    "index.html": "/Flashcard_quiz/index.html",
+    "main.2ecc6eca.css.map": "/Flashcard_quiz/static/css/main.2ecc6eca.css.map",
+    "main.a33ea2b7.js.map": "/Flashcard_quiz/static/js/main.a33ea2b7.js.map"
   },
   "entrypoints": [
     "static/css/main.2ecc6eca.css",
