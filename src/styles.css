@@ -10,10 +10,10 @@ body {
   border-radius: 0.25rem;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
   background-color: white;
-  height: 150px;
-  width: 150px;
-  transition: 160ms; /*animation effect*/
-  transform: perspective(100px) rotateY(var(--rotate-y, 0))
+  height: 200px;
+  width: 200px;
+  transition: 240ms; /*animation effect*/
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0))
     translateY(var(--translate-y, 0)); /*perspective increase flip-effect*/
   /*translateY - give a move up-down effect*/
   transform-style: preserve-3d;
@@ -54,4 +54,44 @@ body {
 }
 .flashcard-option:first-child {
   margin-top: 0;
+}
+.card-grid {
+  display: grid;
+  /* Створює рівно 5 колонок, кожна займає 1 рівну частину (fraction) */
+  grid-template-columns: repeat(5, 1fr);
+  /* Відступи між картками по горизонталі та вертикалі */
+  gap: 20px;
+  /* Внутрішній відступ контейнера */
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Адаптивність (Медіа-запити), щоб на менших екранах сітка не ламалася */
+@media (max-width: 1200px) {
+  .card-grid {
+    /* 4 картки в ряд на планшетах/ноутбуках */
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .card-grid {
+    /* 3 картки в ряд */
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .card-grid {
+    /* 2 картки в ряд на великих телефонах */
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 400px) {
+  .card-grid {
+    /* 1 картка в ряд на маленьких телефонах */
+    grid-template-columns: 1fr;
+  }
 }
