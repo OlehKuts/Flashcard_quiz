@@ -14,7 +14,7 @@ body {
   width: 200px;
   transition: 240ms; /*animation effect*/
   transform: perspective(1000px) rotateY(var(--rotate-y, 0))
-    translateY(var(--translate-y, 0)); /*perspective increase flip-effect*/
+    translateY(var(--translate-y, 0));
   /*translateY - give a move up-down effect*/
   transform-style: preserve-3d;
   cursor: pointer;
