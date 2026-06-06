@@ -10,7 +10,7 @@ This project serves as a practical self-assessment tool and a study guide for te
 
 ## 📸 Demo
 
-![Application interface and card interaction](./assets/flashcards_actions.png)
+![Application interface and card interaction](./assets/flashcards_action.png)
 
 ---
 
