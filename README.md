@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# 🃏 Flashcard Quiz — Interactive Flashcards for Learning JavaScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Flashcard Quiz** is a lightweight and interactive web application designed for beginners to reinforce their knowledge of JavaScript fundamentals (data types, scopes, array methods, closures, and asynchronous JS).
 
-## Available Scripts
+This project serves as a practical self-assessment tool and a study guide for technical interview preparation.
 
-In the project directory, you can run:
+🚀 **Live Demo**: [View the project on GitHub Pages](https://OlehKuts.github.io./Flashcard_quiz)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📸 Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Application interface and card interaction](./assets/flashcards_actions.png)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+- **Interactive 3D Cards**: Clicking a card triggers a smooth 180-degree flip effect, revealing the correct answer and a brief explanation on the back.
+- **Targeted Knowledge Base**: Contains curated questions covering the core fundamentals of JavaScript.
+- **Modern Architecture**: Built with React using functional components and hooks.
+- **Fully Responsive**: Powered by CSS Grid and media queries, the layout seamlessly adapts to any screen size — from desktop monitors (5 cards per row) to mobile devices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Library**: React (Functional Components)
+- **Styling**: Pure CSS3 (CSS Grid, Flexbox, 3D Transforms & Perspective)
+- **Package Manager**: npm
+- **Deployment**: GitHub Pages
+- **Utilities**: `uuid` (for generating unique element keys)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ Installation and Local Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run this project locally on your machine, follow these simple steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repository:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   git clone https://github.com
+   ```
 
-## Learn More
+2. **Navigate to the project directory:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   cd Flaschcard_quiz
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Install the dependencies:**
 
-### Code Splitting
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. **Start the development server:**
+   ```bash
+   npm start
+   # or 'npm run dev' if the project is built with Vite
+   ```
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After that, open [http://localhost:3000](http://localhost:3000) in your browser.
